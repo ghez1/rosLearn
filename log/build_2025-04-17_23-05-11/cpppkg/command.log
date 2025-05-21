@@ -1,0 +1,2 @@
+Invoking command in '/home/gh/ros_ws/build/cpppkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gh/ros_ws/build/cpppkg -- -j8 -l8
+Invoked command in '/home/gh/ros_ws/build/cpppkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gh/ros_ws/build/cpppkg -- -j8 -l8

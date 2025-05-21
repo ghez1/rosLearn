@@ -1,0 +1,9 @@
+[0.019s] Invoking command in '/home/gh/ros_ws/build/finalProjectLauncher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gh/ros_ws/src/finalProjectLauncher -DCMAKE_INSTALL_PREFIX=/home/gh/ros_ws/install/finalProjectLauncher
+[0.031s] [31mCMake Error at CMakeLists.txt:16:
+[0.031s]   Parse error.  Expected "(", got newline with text "
+[0.031s] 
+[0.031s]   ".
+[0.031s] 
+[0.032s] [0m
+[0.032s] -- Configuring incomplete, errors occurred!
+[0.034s] Invoked command in '/home/gh/ros_ws/build/finalProjectLauncher' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gh/ros_ws/src/finalProjectLauncher -DCMAKE_INSTALL_PREFIX=/home/gh/ros_ws/install/finalProjectLauncher

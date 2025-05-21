@@ -1,0 +1,8 @@
+{
+  "package_name": "finalprojectinterfaces",
+  "non_idl_tuples": [
+    "/home/gh/ros_ws/src/finalprojectinterfaces:msg/TurtleArray.msg",
+    "/home/gh/ros_ws/src/finalprojectinterfaces:msg/Turtle.msg",
+    "/home/gh/ros_ws/src/finalprojectinterfaces:srv/CatchTurtle.srv"
+  ]
+}

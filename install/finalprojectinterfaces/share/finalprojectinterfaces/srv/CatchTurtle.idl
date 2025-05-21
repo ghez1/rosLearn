@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from finalprojectinterfaces/srv/CatchTurtle.srv
+// generated code does not contain a copyright notice
+
+
+module finalprojectinterfaces {
+  module srv {
+    struct CatchTurtle_Request {
+      int64 led_number;
+
+      int64 state;
+    };
+    struct CatchTurtle_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/pypkg/pypkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/pypkg/pypkg.egg-info/dependency_links.txt
+writing requirements to ../../build/pypkg/pypkg.egg-info/requires.txt
+writing top-level names to ../../build/pypkg/pypkg.egg-info/top_level.txt
+reading manifest file '../../build/pypkg/pypkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/pypkg/pypkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pypkg/firstnode.py -> /home/gh/ros_ws/build/pypkg/build/lib/pypkg
+running install
+running install_lib
+copying /home/gh/ros_ws/build/pypkg/build/lib/pypkg/firstnode.py -> /home/gh/ros_ws/install/pypkg/lib/python3.12/site-packages/pypkg
+byte-compiling /home/gh/ros_ws/install/pypkg/lib/python3.12/site-packages/pypkg/firstnode.py to firstnode.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/gh/ros_ws/install/pypkg/lib/python3.12/site-packages/pypkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/pypkg/pypkg.egg-info to /home/gh/ros_ws/install/pypkg/lib/python3.12/site-packages/pypkg-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/gh/ros_ws/build/pypkg/install.log'

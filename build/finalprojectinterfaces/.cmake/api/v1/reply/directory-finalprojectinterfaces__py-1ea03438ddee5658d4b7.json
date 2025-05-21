@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "finalprojectinterfaces__py",
+		"source" : "/home/gh/ros_ws/build/finalprojectinterfaces/finalprojectinterfaces__py"
+	}
+}

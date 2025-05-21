@@ -1,0 +1,4 @@
+source;share/finalprojectinterfaces/local_setup.bash
+source;share/finalprojectinterfaces/local_setup.dsv
+source;share/finalprojectinterfaces/local_setup.sh
+source;share/finalprojectinterfaces/local_setup.zsh

@@ -1,0 +1,28 @@
+[0.026s] Invoking command in '/home/gh/ros_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gh/ros_ws/src/finalproject -DCMAKE_INSTALL_PREFIX=/home/gh/ros_ws/install/finalproject
+[0.163s] -- The C compiler identification is GNU 13.3.0
+[0.331s] -- The CXX compiler identification is GNU 13.3.0
+[0.381s] -- Detecting C compiler ABI info
+[0.614s] -- Detecting C compiler ABI info - done
+[0.639s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.640s] -- Detecting C compile features
+[0.645s] -- Detecting C compile features - done
+[0.669s] -- Detecting CXX compiler ABI info
+[0.935s] -- Detecting CXX compiler ABI info - done
+[0.965s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.965s] -- Detecting CXX compile features
+[0.966s] -- Detecting CXX compile features - done
+[1.009s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.393s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.674s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.784s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.824s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.155s] -- Configuring incomplete, errors occurred!
+[2.158s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[2.158s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[2.158s]   before
+[2.158s] Call Stack (most recent call first):
+[2.158s]   CMakeLists.txt:16 (ament_target_dependencies)
+[2.158s] 
+[2.158s] [0m

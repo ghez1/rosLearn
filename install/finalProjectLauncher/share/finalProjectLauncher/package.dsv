@@ -1,0 +1,8 @@
+source;share/finalProjectLauncher/hook/cmake_prefix_path.ps1
+source;share/finalProjectLauncher/hook/cmake_prefix_path.dsv
+source;share/finalProjectLauncher/hook/cmake_prefix_path.sh
+source;share/finalProjectLauncher/local_setup.bash
+source;share/finalProjectLauncher/local_setup.dsv
+source;share/finalProjectLauncher/local_setup.ps1
+source;share/finalProjectLauncher/local_setup.sh
+source;share/finalProjectLauncher/local_setup.zsh

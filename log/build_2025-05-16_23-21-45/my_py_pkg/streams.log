@@ -1,0 +1,80 @@
+[1.603s] Invoking command in '/home/gh/ros_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/gh/ros_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gh/ros_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/gh/ros_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gh/ros_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/gh/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/gh/ros_ws/build/my_py_pkg/build install --record /home/gh/ros_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.032s] running egg_info
+[2.032s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[2.064s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.064s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.065s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.065s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.065s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.065s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.163s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.163s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.164s] running build
+[2.165s] running build_py
+[2.166s] creating /home/gh/ros_ws/build/my_py_pkg/build
+[2.167s] creating /home/gh/ros_ws/build/my_py_pkg/build/lib
+[2.168s] creating /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.168s] copying my_py_pkg/__init__.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.169s] copying my_py_pkg/my_first_node.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.169s] copying my_py_pkg/add_two_ints_client.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.169s] copying my_py_pkg/number_publisher.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.169s] copying my_py_pkg/smartphone.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.170s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.170s] copying my_py_pkg/robot_news_station.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.170s] copying my_py_pkg/hardware_status_publisher.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.170s] copying my_py_pkg/led_panel.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.171s] copying my_py_pkg/add_two_ints_server.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.171s] copying my_py_pkg/number_counter.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.171s] copying my_py_pkg/template_python_node.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.171s] copying my_py_pkg/battery.py -> /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.171s] running install
+[2.190s] running install_lib
+[2.248s] creating /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.249s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.249s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.250s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.250s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.251s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.252s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.252s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.252s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/hardware_status_publisher.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.253s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.254s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.254s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.255s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.255s] copying /home/gh/ros_ws/build/my_py_pkg/build/lib/my_py_pkg/battery.py -> /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.259s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[2.259s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[2.260s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-312.pyc
+[2.261s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[2.263s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+[2.264s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-312.pyc
+[2.264s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+[2.266s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/hardware_status_publisher.py to hardware_status_publisher.cpython-312.pyc
+[2.269s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-312.pyc
+[2.276s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[2.276s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[2.277s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-312.pyc
+[2.282s] byte-compiling /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/battery.py to battery.cpython-312.pyc
+[2.284s] running install_data
+[2.284s] creating /home/gh/ros_ws/install/my_py_pkg/share/ament_index
+[2.284s] creating /home/gh/ros_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.284s] creating /home/gh/ros_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.284s] copying resource/my_py_pkg -> /home/gh/ros_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.285s] copying package.xml -> /home/gh/ros_ws/install/my_py_pkg/share/my_py_pkg
+[2.285s] running install_egg_info
+[2.404s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[2.405s] running install_scripts
+[2.743s] Installing add_two_ints_client script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.744s] Installing add_two_ints_client_no_oop script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.744s] Installing add_two_ints_server script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.744s] Installing battery script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.745s] Installing hw_status_publisher script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.745s] Installing led_panel script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.746s] Installing number_counter script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.746s] Installing number_publisher script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.746s] Installing py_node script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.746s] Installing robot_news_station script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.747s] Installing smartphone script to /home/gh/ros_ws/install/my_py_pkg/lib/my_py_pkg
+[2.747s] writing list of installed files to '/home/gh/ros_ws/build/my_py_pkg/install.log'
+[2.818s] Invoked command in '/home/gh/ros_ws/src/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/gh/ros_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gh/ros_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/gh/ros_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gh/ros_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gh/ros_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/gh/ros_ws/install/my_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/gh/ros_ws/build/my_py_pkg/build install --record /home/gh/ros_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

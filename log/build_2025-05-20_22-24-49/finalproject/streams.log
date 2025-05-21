@@ -1,0 +1,41 @@
+[0.018s] Invoking command in '/home/gh/ros_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gh/ros_ws/build/finalproject -- -j8 -l8
+[0.059s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.548s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.606s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.632s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.689s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.894s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.900s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.081s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.304s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.725s] -- Configuring done (1.7s)
+[1.819s] -- Generating done (0.0s)
+[1.837s] -- Build files have been written to: /home/gh/ros_ws/build/finalproject
+[2.000s] [ 25%] [32m[1mLinking CXX executable turtle_controller[0m
+[2.095s] [ 50%] [32m[1mLinking CXX executable turtle_spawner[0m
+[2.590s] [ 75%] Built target turtle_spawner
+[2.753s] [100%] Built target turtle_controller
+[2.816s] Invoked command in '/home/gh/ros_ws/build/finalproject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gh/ros_ws/build/finalproject -- -j8 -l8
+[2.817s] Invoking command in '/home/gh/ros_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gh/ros_ws/build/finalproject
+[2.853s] -- Install configuration: ""
+[2.853s] -- Installing: /home/gh/ros_ws/install/finalproject/lib/finalproject/turtle_spawner
+[2.858s] -- Set non-toolchain portion of runtime path of "/home/gh/ros_ws/install/finalproject/lib/finalproject/turtle_spawner" to ""
+[2.858s] -- Installing: /home/gh/ros_ws/install/finalproject/lib/finalproject/turtle_controller
+[2.859s] -- Set non-toolchain portion of runtime path of "/home/gh/ros_ws/install/finalproject/lib/finalproject/turtle_controller" to ""
+[2.859s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/ament_index/resource_index/package_run_dependencies/finalproject
+[2.859s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/ament_index/resource_index/parent_prefix_path/finalproject
+[2.877s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/environment/ament_prefix_path.sh
+[2.877s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/environment/ament_prefix_path.dsv
+[2.878s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/environment/path.sh
+[2.878s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/environment/path.dsv
+[2.878s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/local_setup.bash
+[2.878s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/local_setup.sh
+[2.878s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/local_setup.zsh
+[2.879s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/local_setup.dsv
+[2.879s] -- Installing: /home/gh/ros_ws/install/finalproject/share/finalproject/package.dsv
+[2.879s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/ament_index/resource_index/packages/finalproject
+[2.879s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/cmake/finalprojectConfig.cmake
+[2.879s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/cmake/finalprojectConfig-version.cmake
+[2.880s] -- Up-to-date: /home/gh/ros_ws/install/finalproject/share/finalproject/package.xml
+[2.880s] Invoked command in '/home/gh/ros_ws/build/finalproject' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/gh/ros_ws/build/finalproject

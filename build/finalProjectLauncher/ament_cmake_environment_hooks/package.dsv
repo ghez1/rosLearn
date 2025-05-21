@@ -1,0 +1,4 @@
+source;share/finalProjectLauncher/local_setup.bash
+source;share/finalProjectLauncher/local_setup.dsv
+source;share/finalProjectLauncher/local_setup.sh
+source;share/finalProjectLauncher/local_setup.zsh

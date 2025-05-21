@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/gh/ros_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/gh/ros_ws/build/my_robot_interfaces -- -j8 -l8
+[0.090s] [  1%] Built target my_robot_interfaces__rosidl_generator_type_description
+[0.108s] [  1%] Built target ament_cmake_python_copy_my_robot_interfaces
+[0.124s] [  3%] Built target my_robot_interfaces__cpp
+[0.125s] [ 25%] Built target my_robot_interfaces__rosidl_generator_c
+[0.171s] [ 39%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[0.172s] [ 43%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[0.172s] [ 60%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[0.173s] [ 62%] Built target my_robot_interfaces__rosidl_typesupport_c
+[0.174s] [ 71%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[0.179s] [ 81%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.207s] [ 81%] Built target my_robot_interfaces
+[0.242s] [ 82%] Built target my_robot_interfaces__py
+[0.277s] [ 90%] Built target my_robot_interfaces__rosidl_generator_py
+[0.315s] [ 93%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[0.317s] [ 96%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.319s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[0.536s] running egg_info
+[0.577s] writing my_robot_interfaces.egg-info/PKG-INFO
+[0.578s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[0.578s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[0.654s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.655s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.692s] [100%] Built target ament_cmake_python_build_my_robot_interfaces_egg

@@ -1,0 +1,16 @@
+[0.016s] Invoking command in '/home/gh/ros_ws/build/finalproject': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gh/ros_ws/src/finalproject -DCMAKE_INSTALL_PREFIX=/home/gh/ros_ws/install/finalproject
+[0.037s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.383s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.459s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.480s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.705s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.706s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.706s]   before
+[0.706s] Call Stack (most recent call first):
+[0.706s]   CMakeLists.txt:16 (ament_target_dependencies)
+[0.706s] 
+[0.706s] [0m
+[0.706s] -- Configuring incomplete, errors occurred!
+[0.712s] Invoked command in '/home/gh/ros_ws/build/finalproject' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gh/ros_ws/install/pypkg:/home/gh/ros_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gh/ros_ws/src/finalproject -DCMAKE_INSTALL_PREFIX=/home/gh/ros_ws/install/finalproject
