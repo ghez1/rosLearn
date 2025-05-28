@@ -9,6 +9,9 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(example_interfaces REQUIRED)
+find_package(finalprojectinterfaces REQUIRED)
+find_package(turtlesim REQUIRED)
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -17,7 +20,7 @@ add_executable(turtle_controller src/turtle_controller.cpp)
 ament_target_dependencies(turtle_controller rclcpp example_interfaces)
 
 add_executable(turtle_spawner src/turtle_spawner.cpp)
-ament_target_dependencies(turtle_spawner rclcpp example_interfaces)
+ament_target_dependencies(turtle_spawner rclcpp finalprojectinterfaces turtlesim)
 
 
 install(TARGETS
